@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML 복습</title>
+    <meta charset="utf-8">
+</head>
+
+    <body>
+        <h1><a href="index.html">HTML</a></h1>
+            <ol>
+                <li><a href="1.html">감자</a></li>
+                <li><a href="2.html">고구마</a></li>
+                <li><a href="3.html">피자</a></li>
+            </ol>
+
+            <h2>잡소리</h2>
+            <p>다양한 음식의 세계 존나 개쩜 특히 <a href="https://namu.wiki/w/%ED%94%BC%EC%9E%90" target="_blank" title="피자 나무위키 이동"> 피자</a> 존맛<br>
+                <img src="https://i.namu.wiki/i/cFaBzmyvIwB9KHD70nCGwkI91r2URhesRAdrMxm42qIsWxn5uoCgcs1KwAxW02Ziakjt-fT7ZiGp2-4KWTJNR1vjXSI3PrjifUOiuHOmxhAVdIEkKZv8T4CSefZRYULjaSEnYPsiNuJWF68qP3fPZw.webp"style="max-width: 100%; width: 30%;">
+            </p>
+            <script>
+                // 클릭 이벤트 등록
+                document.getElementById("잡소리").addEventListener("click", function() {
+                  // 변경할 텍스트
+                  var newText = "오늘 점심은 치킨 먹자!";
+                
+                  // 텍스트 변경
+                  document.getElementById("잡소리").innerHTML = newText;
+                });
+                </script>
+    </body>
+</html>
